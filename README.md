@@ -6,14 +6,23 @@ A demo version of a software package for the discovery of a network of related c
 
 ### Requirements
 
-1. Jupyter Notebook installation with R kernel
+1. [Jupyter Notebook installation](https://jupyter.org/install) with R kernel (via [`IRkernel` R-package](https://github.com/IRkernel/IRkernel)).
+
 2. Your own data. For example, download [FSD3360 Helsingin Sanomat Loneliness Survey 2014](https://services.fsd.tuni.fi/catalogue/FSD3360?tab=description&lang=en&study_language=en) from the Finnish Social Data Archive.
-3. The input data for the tool must be in [ConLL-U](https://universaldependencies.org/format.html)formatted CSV. See [`UDPipe`](https://cran.r-project.org/web/packages/udpipe/index.html) package for R:
+3. The input data for the tool must be in [ConLL-U](https://universaldependencies.org/format.html)formatted CSV. See [`UDPipe`](https://cran.r-project.org/web/packages/udpipe/index.html) package for R.
 
-### Data preparation
 
-See the process full in `Data preparation.ipynb` notebook.
+### Pipeline 
+
+| Order 	| Input                                                                         	| Notebook                 	| Output                                                                        	|
+|-------	|-------------------------------------------------------------------------------	|--------------------------	|-------------------------------------------------------------------------------	|
+| 0.    	| Any data file imported into R                                                 	| `Data preparation.ipynb` 	| `csv` file in [ConLL-U](https://universaldependencies.org/format.html) format 	|
+| 1     	| `csv` file in [ConLL-U](https://universaldependencies.org/format.html) format 	| `Concept networks.ipynb` 	|                                                                               	|
+
+#### Data preparation
+
+See `Data preparation.ipynb` notebook.
 
 ### Concept network tool
 
-See the process full in `Concept networks.ipynb` notebook.
+See  `Concept networks.ipynb` notebook.
