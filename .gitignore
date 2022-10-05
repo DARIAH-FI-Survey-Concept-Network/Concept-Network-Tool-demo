@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.ipynb_checkpoints/
 data/
 text_data/
 processed_data/
