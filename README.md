@@ -18,16 +18,16 @@ A demo version of a software package for the discovery of a network of related c
 | Order 	| Input                                                                         	| Notebook                 	| Output                                                                        	|
 |-------	|-------------------------------------------------------------------------------	|--------------------------	|-------------------------------------------------------------------------------	|
 | 0.    	| Any data file imported into R                                                 	| `Data Preparation Tutorial.ipynb` 	| `csv` file in [CONLL-U](https://universaldependencies.org/format.html) format 	|
-| 1     	| `csv` file in [CONLL-U](https://universaldependencies.org/format.html) format 	| `Concept Network Tool.ipynb` 	|                                                                               	|
+| 1     	| `csv` file in [CONLL-U](https://universaldependencies.org/format.html) format 	| `Concept Exploration.ipynb` 	|                                                                               	|
 
 
 #### 0. Data preparation
 
-See `Data preparation.ipynb` notebook.
+See `Data Preparation Tutorial.ipynb` notebook.
 
-#### 1. Concept Network Tool
+#### 1. Concept Exploration
 
-See  `Concept networks.ipynb` notebook.
+See  `Concept Exploration.ipynb` notebook.
 
 
 #### In Development
